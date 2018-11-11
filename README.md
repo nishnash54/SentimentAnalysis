@@ -59,5 +59,9 @@ This software is under the MIT License (MIT). [View the license](LICENSE.md).
 
 ## Contributors
 **[Nishant Rodrigues](https://github.com/nishnash54)**
+
+
 **[Samyak Jain](https://github.com/samyak-jain)**
+
+
 **[Vineeth S](https://github.com/technophilic)**
