@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Call Demo</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<h1>
+    Video Call Demo<br><small style="font-size: 14pt">Powered by Agora.io</small>
+</h1>
+
+<h4>My Feed :</h4>
+<div id="me"></div>
+
+<h4>Remote Feeds :</h4>
+<div id="remote-container" style="text-align: center; margin-left: 30%; marign-right: 30%;">
+
+</div>
+<div style="display: none;">
+    <h4>Canvas :</h4>
+    <div id="canvas-container" style="text-align: center;">
+
+    </div>
+</div>
+
+<h4>Result :</h4>
+<div id="result-container" style="text-align: center;">
+
+</div>
+<script src="./scripts/socket.io.js"></script>
+<script src="scripts/AgoraRTCSDK-2.4.0.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
