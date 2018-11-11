@@ -11,6 +11,42 @@ This tutorial enables you to add **Sentiment Analysis to Agora's 1-to-1 Video ca
 - Agora.io Developer Account
 - Python and web sockets
 
+## Project layout
+
+```C
+	|
+	|-Scripts
+		|-AgoraRTCSDK-2.4.0.js
+		|-script.js
+		|-socket.io.js
+		|--
+	|-Server
+		|-models
+			|-face_box.xml
+			|-model.hdf5
+			|--
+		|-utils
+			|-data_augmentation.py
+			|-datasets.py
+			|-grad_cam.py
+			|-inference.py
+			|-preprocessing.py
+			|-visualizer.py
+			|--
+		|-emotions.py
+		|-README.md
+		|-requirements.txt
+		|-server.py
+		|--
+	|-styles
+		|-style.css
+		|--
+	|-index.html
+	|-LICENSE.md
+	|-README.md
+	|--
+```
+
 ## Quick Start
 This section shows you how to prepare, build, and run the sample application.
 
